@@ -27,10 +27,10 @@ export class MenuComponent implements OnInit {
     searchList: Array<string> = [];
     env: any;
 
-    @ViewChild('notificationSideBar_tag') notificationSideBarRef: ElementRef;
-    @ViewChild('layoutSideBar_tag') layoutSideBarRef: ElementRef;
-    @ViewChild('aboutSideBar_tag') aboutSideBarRef: ElementRef;
-    @ViewChild('stickymenu_tag') stickyMenuRef: ElementRef;
+    @ViewChild('notificationSideBar_tag', {static: true}) notificationSideBarRef: ElementRef;
+    @ViewChild('layoutSideBar_tag', {static: true}) layoutSideBarRef: ElementRef;
+    @ViewChild('aboutSideBar_tag', {static: true}) aboutSideBarRef: ElementRef;
+    @ViewChild('stickymenu_tag', {static: true}) stickyMenuRef: ElementRef;
 
     notificationSideBar: any;
     layoutSideBar: any;
