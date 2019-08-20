@@ -15,22 +15,20 @@
     min-height:370px;
 }
 
-.example-custom-placeholder {
-    background: #ccc;
-    border: dotted 3px #999;
+.target-box-placeholder {
+    background: transparent;
+    border: none;
     min-height: 400px;
     transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
 }
-.example-box {
-    padding: 20px 10px;
-    border-bottom: solid 1px #ccc;
+.target-box {
+    padding: 5px 5px;
     color: rgba(0, 0, 0, 0.87);
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     box-sizing: border-box;
     cursor: move;
-    background: white;
     font-size: 14px;
 }
