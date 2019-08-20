@@ -38,7 +38,7 @@ The primary projects leveraged:
 * Angular  - https://angularjs.org/
 * ngx-charts (angular based d3 charts) - https://github.com/swimlane/ngx-charts
 * Semantic-UI - https://semantic-ui.com/
-* ng2-dnd drag and drop - https://github.com/akserg/ng2-dnd
+* Angular Material CDK - Drag and Drop
 * AI Natural Language Processing - The board includes two options for AI, Wit.Ai and IBM Watson.
 * Wit.ai - Natural Language Processing site has been integrated via JSONP
 * IBM Watson - IBM Watson does not support JSONP so the code relies on a backend implementation of the IBM Watson SDK.
